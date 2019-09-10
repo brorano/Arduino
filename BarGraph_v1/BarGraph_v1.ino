@@ -17,7 +17,7 @@ void loop() {
   digitalWrite(pinArray[thisLed], HIGH);
   delay(30);
 }
-  //fuck it, leds off
+  //leds off
  for (int thisLed = 0; thisLed <= ledCount; thisLed++) {
   digitalWrite(pinArray[thisLed], LOW);
   delay(30);
@@ -27,10 +27,9 @@ void loop() {
   digitalWrite(pinArray[thisLed], HIGH);
   delay(30);
   }
-  //fuck it, leds off
+  //leds off
  for (int thisLed = ledCount; thisLed >= 0; thisLed--) {
   digitalWrite(pinArray[thisLed], LOW);
   delay(30);
   }
-  delay(30);
 }
